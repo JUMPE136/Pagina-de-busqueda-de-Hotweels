@@ -83,3 +83,42 @@ body {
   color: blue;
   margin-top: 15px;
 }
+
+                         
+/* Estilos para pantallas pequeñas (celulares) */
+@media (max-width: 768px) {
+  .buscar {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 20px;
+  }
+
+  .iimg {
+    width: 100%;
+    height: auto;
+  }
+
+  .bus {
+    font-size: 1.2rem;
+    padding: 8px;
+  }
+
+  .nom {
+    font-size: 1.2rem;
+  }
+
+  .busca {
+    padding: 15px;
+  }
+
+  .logo {
+    width: 180px;
+  }
+
+  .listadearriba {
+    animation: mover 30s linear infinite; /* más rápido en móvil */
+  }
+
+  .imgg {
+    width: 200px;
+  }
+}
