@@ -46,6 +46,20 @@ body {
 
                                                                      
 
+.ttlbscr{
+  background-color:rgba(255, 0, 0, 0.774) ;
+  padding: 30px;
+  margin: 100px;
+  text-align: center;
+  font-size: 5rem;
+  animation: ttlbscar alternate 5s infinite;
+}
+@keyframes ttlbscar {
+  0%{background-color: rgba(255, 68, 0, 0.5);}
+  30%{background-color: rgba(255, 0, 0, 0.5);}
+  60%{background-color: rgba(255, 255, 0, 0.5);}
+  100%{background-color: rgba(0, 174, 255, 0.5);}
+}
 .buscar {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -87,6 +101,11 @@ body {
                          
 /* Estilos para pantallas pequeñas (celulares) */
 @media (max-width: 400px) {
+  .ttlbscr{
+    font-size: 2rem;
+    margin: 20px;
+    padding: 10px;
+  }
   .listadearriba {
     animation: mover 999s linear infinite;
   }
