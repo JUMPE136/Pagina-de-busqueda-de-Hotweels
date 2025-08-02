@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(57, 57, 58, 0.336);
+}
+.arriba {
+  background-color: red;
+  padding: 40px;
+}
+.logo {
+  width: 250px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.marquee-wrapper {
+  overflow: hidden;
+  width: 100%;
+  background-color: transparent;
+}
+
+.listadearriba {
+  display: flex;
+  width: max-content;
+  animation: mover 60s linear infinite;
+}
+
+.imgg {
+  width: 300px;
+  height: auto;
+}
+
+
+@keyframes mover {
+  from {
+    transform: translateX(100px);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
