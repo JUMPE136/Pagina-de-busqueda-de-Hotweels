@@ -45,6 +45,24 @@ body {
 }
 
                                                                      
+.buscadoor{
+  border-radius: 10px;
+}
+.buton{
+  padding: 10px;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  background-color: rgba(255, 0, 0, 0.774);
+}
+.buton:hover,
+.buton:active {
+  background-color: rgba(255, 251, 0, 0.486);
+  color: black;
+  transform: translateY(-5px);
+  box-shadow: 5px 10px 8px white;
+  transition: all 1s ease;
+}
+                                                                     
 
 .ttlbscr{
   background-color:rgba(255, 0, 0, 0.774) ;
@@ -97,11 +115,58 @@ body {
   color: blue;
   margin-top: 15px;
 }
-
+                                                                                               
+.ttlo2{
+  background-color:green ;
+  padding: 30px;
+  margin: 100px;
+  text-align: center;
+  font-size: 5rem;
+}
+.encontrados{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 100px;
+  text-align: center;
+  padding: 10px;
+}
+.encontra{
+  background-color: rgba(255, 0, 0, 0.774);
+  margin: 10px;
+  padding: 20px;
+  border-radius: 15px;
+  transition: all 0.8s ease;
+}
+.encontra:hover,
+.encontra:active {
+  transform: translateY(-15px);
+  box-shadow: 5px 10px 8px white;
+}
+.encon{
+  background-color: orange;
+  padding: 10px;
+  margin-bottom: 20px; 
+  font-size: 1.5rem;
+}
+.iimgg{
+  width: 250px;
+  height: 400px;
+  margin: 0 10px;
+}
+.nomm{
+  font-size: 1.5rem;
+  color: blue;
+  margin-top: 15px;
+}
                          
 /* Estilos para pantallas pequeñas (celulares) */
 @media (max-width: 400px) {
   .ttlbscr{
+    font-size: 2rem;
+    margin: 20px;
+    padding: 10px;
+  }
+  .ttlo2{
     font-size: 2rem;
     margin: 20px;
     padding: 10px;
@@ -135,12 +200,33 @@ body {
   .logo {
     width: 180px;
   }
-
+                               
   .listadearriba {
-    animation: mover 30s linear infinite; /* más rápido en móvil */
+    animation: mover 30s linear infinite;
   }
 
   .imgg {
     width: 200px;
+  }
+  .buton {
+    font-size: 1.2rem;
+    padding: 8px;
+  }
+                                                         
+  
+  .encontrados{
+    grid-template-columns: repeat(2, 1fr);
+    margin: 20px;
+  }
+  .iimgg {
+    width: 100%;
+    height: auto;
+  }
+  .encon{
+    font-size: 1.2rem;
+    padding: 8px;
+  }
+  .nomm {
+    font-size: 1.2rem;
   }
 }
