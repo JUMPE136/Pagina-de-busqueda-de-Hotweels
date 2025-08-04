@@ -78,135 +78,265 @@
       <img src="imghotweels/Lotus Emira.jpeg" class="imgg">
     </div>
   </div>
-                                                                                   
+                                                                             
+  <!-- BUSCADOR -->
+  <div style="text-align: center; margin: 40px;">
+    <input class="buscadoor" type="text" id="buscador" placeholder="Buscar Hotwheel..." style="padding: 10px; font-size: 1.5rem; width: 80%; max-width: 600px;">
+  </div>
+
+  <!-- FILTRO DE MARCAS -->
+  <div style="text-align: center; margin-bottom: 40px;">
+    <button class="buton" onclick="filtrarMarca('todos')">Todos</button>
+    <button class="buton" onclick="filtrarMarca('mclaren')">McLaren</button>
+    <button class="buton" onclick="filtrarMarca('toyota')">Toyota</button>
+    <button class="buton" onclick="filtrarMarca('lamborghini')">Lamborghini</button>
+    <button class="buton" onclick="filtrarMarca('bugatti')">Bugatti</button>
+    <button class="buton" onclick="filtrarMarca('audi')">Audi</button>
+    <button class="buton" onclick="filtrarMarca('ford')">Ford</button>
+    <button class="buton" onclick="filtrarMarca('koenigsegg')">Koenigsegg</button>
+    <button class="buton" onclick="filtrarMarca('porsche')">Porsche</button>
+    <button class="buton" onclick="filtrarMarca('rimac')">Rimac</button>
+    <button class="buton" onclick="filtrarMarca('lotus')">Lotus</button>
+  </div>
+
   <h3 class="ttlbscr">BUSCAR</h3>
   <div class="buscar">
 
-    <div class="busca num1">
+    <div class="busca num1" data-nombre="mclaren p1" data-marca="mclaren">
       <h3 class="bus">BUSCAR</h3>
       <img class="iimg" src="imghotweels/mcl P1 ROJO.jpg">
       <h3 class="nom">Mclaren P1</h3>
     </div>
 
-    <div class="busca num2">
+    <div class="busca num2" data-nombre="mclaren f1" data-marca="mclaren">
       <h3 class="bus">BUSCAR</h3>
       <img class="iimg" src="imghotweels/mcl f1.jpg">
       <h3 class="nom">Mclaren F1</h3>
     </div>
 
-    <div class="busca num3">
+    <div class="busca num3" data-nombre="mclaren senna" data-marca="mclaren">
       <h3 class="bus">BUSCAR</h3>
       <img class="iimg" src="imghotweels/mcl sena.jpg">
       <h3 class="nom">Mclaren Senna</h3>
     </div>
 
-    <div class="busca num4">
+    <div class="busca num4" data-nombre="toyota supra" data-marca="toyota">
       <h3 class="bus">BUSCAR</h3>
       <img class="iimg" src="imghotweels/tyta supra mk5.jpg">
-      <h3 class="nom">´20 Toyota GR supra </h3>
+      <h3 class="nom">´20 Toyota GR Supra</h3>
     </div>
 
-    <div class="busca num5">
+    <div class="busca num5" data-nombre="toyota 4runner" data-marca="toyota">
       <h3 class="bus">BUSCAR</h3>
       <img class="iimg" src="imghotweels/tyta four runner 2018.webp">
       <h3 class="nom">´18 Toyota 4RUNNER</h3>
     </div>
 
-    <div class="busca num6">
+    <div class="busca num6" data-nombre="lamborghini sian" data-marca="lamborghini">
       <h3 class="bus">BUSCAR</h3>
       <img class="iimg" src="imghotweels/lambo fkp 37.jpg">
-      <h3 class="nom">Lamborghini sian fkp</h3>
+      <h3 class="nom">Lamborghini Sian FKP</h3>
     </div>
 
-    <div class="busca num7">
+    <div class="busca num7" data-nombre="lamborghini huracan" data-marca="lamborghini">
       <h3 class="bus">BUSCAR</h3>
       <img class="iimg" src="imghotweels/lambo huracan.jpg">
       <h3 class="nom">Lamborghini Huracan</h3>
     </div>
 
-    <div class="busca num8">
+    <div class="busca num8" data-nombre="lamborghini sexto elemento" data-marca="lamborghini">
       <h3 class="bus">BUSCAR</h3>
       <img class="iimg" src="imghotweels/lambo sexto elemento.webp">
-      <h3 class="nom">Lamborghini sexto elemento</h3>
+      <h3 class="nom">Lamborghini Sexto Elemento</h3>
     </div>
 
-    <div class="busca num9">
+    <div class="busca num9" data-nombre="lamborghini reventon" data-marca="lamborghini">
       <h3 class="bus">BUSCAR</h3>
       <img class="iimg" src="imghotweels/lambo reventon.jpg">
       <h3 class="nom">Lamborghini Reventon</h3>
     </div>
 
-    <div class="busca num10">
+    <div class="busca num10" data-nombre="bugatti eb110" data-marca="bugatti">
       <h3 class="bus">BUSCAR</h3>
       <img class="iimg" src="imghotweels/bgtt eb110 ss.jpeg">
       <h3 class="nom">Bugatti EB110 SS</h3>
     </div>
 
-    <div class="busca num11">
+    <div class="busca num11" data-nombre="lamborghini j" data-marca="lamborghini">
       <h3 class="bus">BUSCAR</h3>
       <img class="iimg" src="imghotweels/lambo j.webp">
       <h3 class="nom">Lamborghini J</h3>
     </div>
 
-    <div class="busca num12">
+    <div class="busca num12" data-nombre="audi r8" data-marca="audi">
       <h3 class="bus">BUSCAR</h3>
       <img class="iimg" src="imghotweels/audi r8.jpg">
       <h3 class="nom">Audi R8</h3>
     </div>
 
-    <div class="busca num13">
+    <div class="busca num13" data-nombre="koenigsegg negro" data-marca="koenigsegg">
       <h3 class="bus">BUSCAR</h3>
       <img class="iimg" src="imghotweels/konsiseg negro.jpeg">
-      <h3 class="nom">konsiseg negro</h3>
+      <h3 class="nom">Koenigsegg Negro</h3>
     </div>
 
-    <div class="busca num">
+    <div class="busca num14" data-nombre="bugatti chiron" data-marca="bugatti">
       <h3 class="bus">BUSCAR</h3>
       <img class="iimg" src="imghotweels/bgtti chiron.webp">
-      <h3 class="nom">Bugatt Chiron</h3>
+      <h3 class="nom">Bugatti Chiron</h3>
     </div>
 
-    <div class="busca num">
+    <div class="busca num15" data-nombre="ford gt 2017" data-marca="ford">
       <h3 class="bus">BUSCAR</h3>
       <img class="iimg" src="imghotweels/frd gt ´17.webp">
       <h3 class="nom">Ford GT ´17</h3>
     </div>
 
-    <div class="busca num">
+    <div class="busca num16" data-nombre="koenigsegg gemera" data-marca="koenigsegg">
       <h3 class="bus">BUSCAR</h3>
       <img class="iimg" src="imghotweels/kongsiseg gemera.webp">
-      <h3 class="nom">Kongsiseg Gemera</h3>
+      <h3 class="nom">Koenigsegg Gemera</h3>
     </div>
 
-    <div class="busca num">
+    <div class="busca num17" data-nombre="porsche 911 turbo" data-marca="porsche">
       <h3 class="bus">BUSCAR</h3>
       <img class="iimg" src="imghotweels/Porsche 911 Turbo 3.6 (964).webp">
       <h3 class="nom">Porsche 911 Turbo</h3>
     </div>
 
-    <div class="busca num">
+    <div class="busca num18" data-nombre="rimac nevera" data-marca="rimac">
       <h3 class="bus">BUSCAR</h3>
       <img class="iimg" src="imghotweels/Rimac Nevera.webp">
       <h3 class="nom">Rimac Nevera</h3>
     </div>
 
-    <div class="busca num">
+    <div class="busca num19" data-nombre="mclaren elva" data-marca="mclaren">
       <h3 class="bus">BUSCAR</h3>
       <img class="iimg" src="imghotweels/McLaren Elva.webp">
       <h3 class="nom">McLaren Elva</h3>
     </div>
 
-    <div class="busca num">
+    <div class="busca num20" data-nombre="lotus emira" data-marca="lotus">
       <h3 class="bus">BUSCAR</h3>
       <img class="iimg" src="imghotweels/Lotus Emira.jpeg">
       <h3 class="nom">Lotus Emira</h3>
     </div>
-                                                                             
-    <div class="encontrado">
+  </div>
+                                                                                               
+  <h3 class="ttlo2">ENCONTRADOS</h3>
+  
+  <div class="encontrados">
 
-      <h3>
-
-      </h3>
+    <div class="encontra" data-nombre="" data-marca="">
+      <h3 class="encon">ENCONTRADOS</h3>
+      <img class="iimgg" src="imgencontrados/'23 RAM 1500.webp">
+      <h3 class="nomm">'23 RAM 1500 </h3>
     </div>
+
+    <div class="encontra" data-nombre="" data-marca="">
+      <h3 class="encon">ENCONTRADOS</h3>
+      <img class="iimgg" src="imgencontrados/'67 Chevelle SS 396.webp">
+      <h3 class="nomm">'67 Chevelle SS 396</h3>
+    </div>
+
+    <div class="encontra" data-nombre="" data-marca="">
+      <h3 class="encon">ENCONTRADOS</h3>
+      <img class="iimgg" src="imgencontrados/'70 Ford Torino.jpeg">
+      <h3 class="nomm">'70 Ford Torino</h3>
+    </div>
+
+    <div class="encontra" data-nombre="" data-marca="">
+      <h3 class="encon">ENCONTRADOS</h3>
+      <img class="iimgg" src="imgencontrados/'71 Lamborghini Miura SV.webp">
+      <h3 class="nomm">'71 Lamborghini Miura SV</h3>
+    </div>
+
+    <div class="encontra" data-nombre="" data-marca="">
+      <h3 class="encon">ENCONTRADOS</h3>
+      <img class="iimgg" src="imgencontrados/2020 Ford Mustang Shelby GT500.webp">
+      <h3 class="nomm">2020 Ford Mustang Shelby GT500</h3>
+    </div>
+
+    <div class="encontra" data-nombre="" data-marca="">
+      <h3 class="encon">ENCONTRADOS</h3>
+      <img class="iimgg" src="imgencontrados/2020 RAM 1500 Rebel.webp">
+      <h3 class="nomm">2020 RAM 1500 Rebel</h3>
+    </div>
+
+    <div class="encontra" data-nombre="" data-marca="">
+      <h3 class="encon">ENCONTRADOS</h3>
+      <img class="iimgg" src="imgencontrados/Bugatti Bolide.webp">
+      <h3 class="nomm">Bugatti Bolide</h3>
+    </div>
+
+    <div class="encontra" data-nombre="" data-marca="">
+      <h3 class="encon">ENCONTRADOS</h3>
+      <img class="iimgg" src="imgencontrados/Ford Mustang GTD.webp">
+      <h3 class="nomm">Ford Mustang GTD</h3>
+    </div>
+
+    <div class="encontra" data-nombre="" data-marca="">
+      <h3 class="encon">ENCONTRADOS</h3>
+      <img class="iimgg" src="imgencontrados/Koenigsegg Jesko.webp">
+      <h3 class="nomm">Koenigsegg Jesko</h3>
+    </div>
+
+    <div class="encontra" data-nombre="" data-marca="">
+      <h3 class="encon">ENCONTRADOS</h3>
+      <img class="iimgg" src="imgencontrados/Lamborghini Huracán LP 620-2 Super Trofeo.webp">
+      <h3 class="nomm">Lamborghini Huracán LP 620-2 Super Trofeo</h3>
+    </div>
+
+    <div class="encontra" data-nombre="" data-marca="">
+      <h3 class="encon">ENCONTRADOS</h3>
+      <img class="iimgg" src="imgencontrados/McLaren Speedtail.webp">
+      <h3 class="nomm">McLaren Speedtail</h3>
+    </div>
+
+    <div class="encontra" data-nombre="" data-marca="">
+      <h3 class="encon">ENCONTRADOS</h3>
+      <img class="iimgg" src="imgencontrados/Pagani Zonda R.webp">
+      <h3 class="nomm">Pagani Zonda R</h3>
+    </div>
+
+        <div class="encontra" data-nombre="" data-marca="">
+      <h3 class="encon">ENCONTRADOS</h3>
+      <img class="iimgg" src="imgencontrados/Porsche 911 Carrera Clip.jpg">
+      <h3 class="nomm">Porsche 911 Carrera Clip</h3>
+    </div>
+
+    <div class="encontra" data-nombre="" data-marca="">
+      <h3 class="encon">ENCONTRADOS</h3>
+      <img class="iimgg" src="imgencontrados/Porsche 911 GT3.webp">
+      <h3 class="nomm">Porsche 911 GT3</h3>
+    </div>
+
+    <div class="encontra" data-nombre="" data-marca="">
+      <h3 class="encon">ENCONTRADOS</h3>
+      <img class="iimgg" src="imgencontrados/toyota supra.webp">
+      <h3 class="nomm">toyota supra</h3>
+    </div>
+  </div>
+                                                                                               
+
+  <script>
+    const buscador = document.getElementById('buscador');
+    const tarjetas = document.querySelectorAll('.busca');
+
+    buscador.addEventListener('input', () => {
+      const texto = buscador.value.toLowerCase();
+      tarjetas.forEach(tarjeta => {
+        const nombre = tarjeta.dataset.nombre;
+        tarjeta.style.display = nombre.includes(texto) ? 'block' : 'none';
+      });
+    });
+
+    function filtrarMarca(marca) {
+      tarjetas.forEach(tarjeta => {
+        const marcaTarjeta = tarjeta.dataset.marca;
+        tarjeta.style.display = (marca === 'todos' || marcaTarjeta === marca) ? 'block' : 'none';
+      });
+    }
+  </script>
 </body>
 </html>
